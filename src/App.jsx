@@ -641,7 +641,11 @@ ${textToRevise}
       <footer className="mt-16 mb-8 text-center text-sm text-slate-500">
         <p>&copy; {new Date().getFullYear()} Revitlegis - Revisor de Textos Legislativos. Todos os direitos reservados.</p>
         {/* (Revitlegis - Legislative Text Reviewer. All rights reserved.) */}
-        <p className="mt-1">Lembre-se: esta é uma ferramenta de auxílio e a revisão humana final é sempre recomendada.</p>
+        
+        {/* LINHA NOVA ADICIONADA AQUI: */}
+        <p className="mt-2 text-xs font-medium">Criado por Danilo S. Sodré</p> 
+        
+        <p className="mt-2">Lembre-se: esta é uma ferramenta de auxílio e a revisão humana final é sempre recomendada.</p>
         {/* (Remember: this is an assistive tool and final human review is always recommended.) */}
         <p className="mt-1">Esta ferramenta usa a API Google Gemini. Ao usar sua API Key, você concorda com os termos de serviço da Google.</p>
         {/* (This tool uses the Google Gemini API. By using your API Key, you agree to Google's terms of service.) */}
